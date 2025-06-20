@@ -1,3 +1,19 @@
+# VuePress-FunctionCat
+
+**Vue 驱动的静态网站生成器 [VuePress](https://github.com/vuejs/vuepress) 的 [函数猫](https://functioncat.cn/) 一键部署模板**
+
+Template for deploying the minimalistic Vue-powered static site generator [VuePress](https://github.com/vuejs/vuepress) to [FunctionCat](https://functioncat.cn/)
+
+| 项目信息 | 详情 |
+| --- | --- |
+| 原始项目仓库 | [VueJs/VuePress](https://github.com/vuejs/vuepress) |
+| 原始项目文档 | [VuePress V1 Docs](https://v1.vuepress.vuejs.org/zh/) |
+| 原始项目Star | [![GitHub stars](https://img.shields.io/github/stars/vuejs/vuepress?style=social)](https://github.com/vuejs/vuepress/stargazers) |
+
+以下为 [VuePress](https://github.com/vuejs/vuepress) 项目的原始自述文件
+
+---
+
 <p align="center">
   <a href="https://vuepress.vuejs.org/" target="_blank">
     <img width="180" src="https://raw.githubusercontent.com/vuejs/vuepress/master/packages/docs/docs/.vuepress/public/hero.png" alt="logo">

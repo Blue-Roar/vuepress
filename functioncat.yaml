@@ -1,0 +1,22 @@
+system: 1.0.0
+info:
+  name: vuepress
+envs:
+  prod:
+    branch: master
+apps:
+  vuepress:
+    type: web_frontend
+    envs:
+      prod:
+        build:
+          root_path: /
+          script: yarn install; yarn build
+          before_script: NODE_VERSION=16
+          output_path: /vuepress
+        provision:
+          root_path: /vuepress
+          type: nodejs18x
+routes:
+  main_env: prod
+  main_app: vuepress
